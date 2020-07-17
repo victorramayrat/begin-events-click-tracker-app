@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "description": "Example demonstrating publishing and subscribing to an event",
   "scripts": {
-    "start": "npx sandbox"
+    "start": "npx sandbox",
+    "build": "./scripts/build"
   },
   "devDependencies": {
     "@architect/functions": "^3.8.4",
