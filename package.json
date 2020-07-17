@@ -4,7 +4,8 @@
   "description": "Example demonstrating publishing and subscribing to an event",
   "scripts": {
     "start": "npx sandbox",
-    "build": "./scripts/build"
+    "build": "./scripts/build",
+    "lint": "eslint src --ignore-pattern node_modules --fix"
   },
   "devDependencies": {
     "@architect/functions": "^3.8.4",
